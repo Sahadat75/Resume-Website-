@@ -45,7 +45,7 @@ body{
     border-radius: 30px;
 }
 .scroll-bar{
-    animation: mover 1s infinite alternate;
+    animation: mover 0.5s infinite alternate;
 }
 @keyframes mover{
     0%{transform: translateY(0);}
@@ -70,14 +70,10 @@ body{
 .navbar-brand img{
     height: 50px;
 }
-.nav-bar .fa-bars{
+.nav-bar .bi-bars{
     font-size: 35px;
     color: white;
 }
-/* .navbar-toggler{
-    outline: none !important;
-
-} */
 .navbar-nav{
     float: right;
     text-align: right;
